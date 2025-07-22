@@ -33,6 +33,7 @@ public class LoginPage {
                 driver.findElement(txt_username).sendKeys(username);
                 driver.findElement(txt_password).sendKeys(password);
                 clickLogin();
+                System.out.println("I clicked on login button");
 
             }
 }
