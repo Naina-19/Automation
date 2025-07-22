@@ -32,6 +32,7 @@ public class LoginDemoSteps_POM {
     @And("user is on login page")
     public void userIsOnLoginPage() {
         driver.navigate().to("https://practicetestautomation.com/practice-test-login/");
+        System.out.println("User is on the login page");
 
     }
 
